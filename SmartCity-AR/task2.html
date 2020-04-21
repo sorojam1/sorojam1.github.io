@@ -9,12 +9,11 @@
             <!-- handle hiro marker -->
             <a-marker preset='hiro'>
                 <!-- i replaced th box with a sphere, and changed some attributes -->
-                <a-sphere position='0 0.5 0' material='opacity: 0.7; color:green;'></a-sphere>
-                
+                <a-sphere position='0 0.5 0' material='opacity: 0.9; color:green;'></a-sphere>
+                <!-- text added -->
+                <a-text value="Hello, Bence vagyok!"></a-text>
             </a-marker>
-            <!-- text added -->
-            <a-text position='0 0.5 0' value="Hello, Bence vagyok!" scale="120 120 120"></a-text>
-
+            
             <!-- add a camera to the scene that renders the objects for us -->
             <a-entity camera></a-entity>
         </a-scene>
